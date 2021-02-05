@@ -1,7 +1,6 @@
-
 CREATE TABLE IF NOT EXISTS emotions (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
-	date_time timestamp DEFAULT CURRENT_TIMESTAMP,
+	date_time timestamp DEFAULT (strftime('%Y-%m-%d %H:%M','now', 'localtime')),
 	emotion INTEGER
 );
 

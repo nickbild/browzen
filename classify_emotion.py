@@ -33,7 +33,7 @@ transform_test = transforms.Compose([
 ])
 
 
-# Load pre-trained model.
+# Load pre-trained model (thanks to https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch).
 net = VGG('VGG19')
 checkpoint = torch.load(os.path.join('FER2013_VGG19', 'PrivateTest_model.t7'))
 net.load_state_dict(checkpoint['net'])
