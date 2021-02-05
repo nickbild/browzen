@@ -1,0 +1,9 @@
+sqlite3 ~/.config/chromium/Default/History
+
+select u.url, 
+datetime(v.visit_time / 1000000 + (strftime('%s', '1601-01-01')), 'unixepoch', 'localtime') AS visit_start,
+datetime((v.visit_time + visit_duration) / 1000000 + (strftime('%s', '1601-01-01')), 'unixepoch', 'localtime') AS visit_end
+from visits v
+left join urls u on u.id = v.url
+where v.url = 33;
+
