@@ -14,6 +14,9 @@ Finally, the analysis results are used to generate a web dashboard ([generate_da
 
 ## Media
 
+The web dashboard giving an overview of emotion reactions during visits to various websites:
+![Dashboard](https://raw.githubusercontent.com/nickbild/browzen/main/media/browzen_dashboard_sm.png)
+
 ## Bill of Materials
 
 - 1 x NVIDIA Jetson Xavier NX
