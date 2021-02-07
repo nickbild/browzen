@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrowZen Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  </head>
+  <body bgcolor="#e0e0d1">
+
+    <div style="width: 1050px; display: block; margin-left: auto; margin-right: auto;">
+
+    <div>
+	     <canvas id="myChart1" style="width:500px; float: left;"></canvas>
+    </div>
+
+    <div>
+	     <canvas id="myChart2" style="width:500px; float: left;"></canvas>
+    </div>
+
+    <div>
+	     <canvas id="myChart3" style="width:500px; float: left;"></canvas>
+    </div>
+
+    <div>
+	     <canvas id="myChart4" style="width:500px; float: left;"></canvas>
+    </div>
+
+    <div>
+	     <canvas id="myChart5" style="width:500px; float: left;"></canvas>
+    </div>
+
+    <div>
+	     <canvas id="myChart6" style="width:500px; float: left;"></canvas>
+    </div>
+
+    </div>
+
+    <script>
+      var ctx = document.getElementById('myChart1').getContext('2d');
+      var myChart1 = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ["Angry","Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"],
+            datasets: [{
+                data: [70,10,6,10,10,10,10],
+                borderColor:[
+                  "#fc0202",
+                  "#e2d303",
+                  "#ff6600",
+                  "#00e617",
+                  "#004bd8",
+                  "#f402e0",
+                  "#ffffff",
+
+                ],
+                backgroundColor: [
+                  "rgb(252,2,2,0.5)",
+                  "rgb(252,237,22,0.5)",
+                  "rgb(255,102,0,0.5)",
+                  "rgb(91,255,108,0.5)",
+                  "rgb(0,75,216,0.5)",
+                  "rgb(244,2,224,0.5)",
+                  "rgb(255,255,255,0.5)",
+
+                ],
+                borderWidth:2,
+              }]
+          },
+        options: {
+          title: {
+              display: true,
+              text: 'Hackster'
+          },
+          legend: {
+            display: false
+         },
+          responsive: false,
+          scales: {
+            xAxes: [{
+               display: false,
+            }],
+            yAxes: [{
+               display: false,
+            }],
+          }
+        },
+
+      });
+
+
+
+      var ctx = document.getElementById('myChart2').getContext('2d');
+      var myChart2 = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ["Angry","Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"],
+            datasets: [{
+                data: [70,10,6,10,10,10,10],
+                borderColor:[
+                  "#fc0202",
+                  "#fced16",
+                  "#5bfff6",
+                  "#5bff6c",
+                  "#004bd8",
+                  "#f402e0",
+                  "#d8d8d8",
+
+                ],
+                backgroundColor: [
+                  "rgb(252,2,2,0.5)",
+                  "rgb(252,237,22,0.5)",
+                  "rgb(91,255,246,0.5)",
+                  "rgb(91,255,108,0.5)",
+                  "rgb(0,75,216,0.5)",
+                  "rgb(244,2,224,0.5)",
+                  "rgb(216,216,216,0.5)",
+
+                ],
+                borderWidth:2,
+              }]
+          },
+        options: {
+          title: {
+              display: true,
+              text: 'Hackaday'
+          },
+          legend: {
+            display: false
+         },
+          responsive: false,
+          scales: {
+            xAxes: [{
+               display: false,
+            }],
+            yAxes: [{
+               display: false,
+            }],
+          }
+        },
+
+      });
+
+
+      var ctx = document.getElementById('myChart3').getContext('2d');
+      var myChart3 = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ["Angry","Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"],
+            datasets: [{
+                data: [70,10,6,10,10,10,10],
+                borderColor:[
+                  "#fc0202",
+                  "#fced16",
+                  "#5bfff6",
+                  "#5bff6c",
+                  "#004bd8",
+                  "#f402e0",
+                  "#d8d8d8",
+
+                ],
+                backgroundColor: [
+                  "rgb(252,2,2,0.5)",
+                  "rgb(252,237,22,0.5)",
+                  "rgb(91,255,246,0.5)",
+                  "rgb(91,255,108,0.5)",
+                  "rgb(0,75,216,0.5)",
+                  "rgb(244,2,224,0.5)",
+                  "rgb(216,216,216,0.5)",
+
+                ],
+                borderWidth:2,
+              }]
+          },
+        options: {
+          title: {
+              display: true,
+              text: 'Twitter'
+          },
+          legend: {
+            display: false
+         },
+          responsive: false,
+          scales: {
+            xAxes: [{
+               display: false,
+            }],
+            yAxes: [{
+               display: false,
+            }],
+          }
+        },
+
+      });
+
+
+      var ctx = document.getElementById('myChart4').getContext('2d');
+      var myChart4 = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ["Angry","Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"],
+            datasets: [{
+                data: [70,10,6,10,10,10,10],
+                borderColor:[
+                  "#fc0202",
+                  "#fced16",
+                  "#5bfff6",
+                  "#5bff6c",
+                  "#004bd8",
+                  "#f402e0",
+                  "#d8d8d8",
+
+                ],
+                backgroundColor: [
+                  "rgb(252,2,2,0.5)",
+                  "rgb(252,237,22,0.5)",
+                  "rgb(91,255,246,0.5)",
+                  "rgb(91,255,108,0.5)",
+                  "rgb(0,75,216,0.5)",
+                  "rgb(244,2,224,0.5)",
+                  "rgb(216,216,216,0.5)",
+
+                ],
+                borderWidth:2,
+              }]
+          },
+        options: {
+          title: {
+              display: true,
+              text: 'Facebook'
+          },
+          legend: {
+            display: false
+         },
+          responsive: false,
+          scales: {
+            xAxes: [{
+               display: false,
+            }],
+            yAxes: [{
+               display: false,
+            }],
+          }
+        },
+
+      });
+
+
+      var ctx = document.getElementById('myChart5').getContext('2d');
+      var myChart5 = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ["Angry","Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"],
+            datasets: [{
+                data: [70,10,6,10,10,10,10],
+                borderColor:[
+                  "#fc0202",
+                  "#fced16",
+                  "#5bfff6",
+                  "#5bff6c",
+                  "#004bd8",
+                  "#f402e0",
+                  "#d8d8d8",
+
+                ],
+                backgroundColor: [
+                  "rgb(252,2,2,0.5)",
+                  "rgb(252,237,22,0.5)",
+                  "rgb(91,255,246,0.5)",
+                  "rgb(91,255,108,0.5)",
+                  "rgb(0,75,216,0.5)",
+                  "rgb(244,2,224,0.5)",
+                  "rgb(216,216,216,0.5)",
+
+                ],
+                borderWidth:2,
+              }]
+          },
+        options: {
+          title: {
+              display: true,
+              text: 'Reddit'
+          },
+          legend: {
+            display: false
+         },
+          responsive: false,
+          scales: {
+            xAxes: [{
+               display: false,
+            }],
+            yAxes: [{
+               display: false,
+            }],
+          }
+        },
+
+      });
+
+
+      var ctx = document.getElementById('myChart6').getContext('2d');
+      var myChart6 = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ["Angry","Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"],
+            datasets: [{
+                data: [70,10,6,10,10,10,10],
+                borderColor:[
+                  "#fc0202",
+                  "#fced16",
+                  "#5bfff6",
+                  "#5bff6c",
+                  "#004bd8",
+                  "#f402e0",
+                  "#d8d8d8",
+
+                ],
+                backgroundColor: [
+                  "rgb(252,2,2,0.5)",
+                  "rgb(252,237,22,0.5)",
+                  "rgb(91,255,246,0.5)",
+                  "rgb(91,255,108,0.5)",
+                  "rgb(0,75,216,0.5)",
+                  "rgb(244,2,224,0.5)",
+                  "rgb(216,216,216,0.5)",
+
+                ],
+                borderWidth:2,
+              }]
+          },
+        options: {
+          title: {
+              display: true,
+              text: 'Google'
+          },
+          legend: {
+            display: false
+         },
+          responsive: false,
+          scales: {
+            xAxes: [{
+               display: false,
+            }],
+            yAxes: [{
+               display: false,
+            }],
+          }
+        },
+
+      });
+
+    </script>
+
+  </body>
+</html>
