@@ -40,7 +40,7 @@ def record_emotions_for_url(history_record, emotions_db_file):
     if len(domain.split('.')) > 2:
         domain = '.'.join(domain.split('.')[1:])
 
-    print("{} {} {}".format(domain, visit_start, visit_end))
+    # print("{} {} {}".format(domain, visit_start, visit_end))
 
     # Get all emotions recorded during the visit to this website.
     emotions_conn = create_connection(emotions_db_file)
