@@ -6,7 +6,9 @@ BrowZen correlates your emotional states with the web sites you visit to give yo
 
 ## How It Works
 
-![Overview](https://raw.githubusercontent.com/nickbild/browzen/main/media/browzen.jpg)
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/browzen/main/media/browzen.jpg">
+</p>
 
 A webcam attached to an NVIDIA Jetson Xavier NX captures periodic images of the user of the computer as a background process.  These images are classified (see [classify_emotion.py](https://github.com/nickbild/browzen/blob/main/classify_emotion.py)) by a VGG19 convolutional neural network that has been [pretrained](https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch) to recognize seven emotional states ("Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", and "Neutral").  Observations (emotional state, datetime stamp) are recorded in an SQLite3 database.  For privacy protection, images are destroyed after classification, and all processing takes place locally—nothing is sent to the cloud.
 
