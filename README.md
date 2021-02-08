@@ -18,6 +18,9 @@ Finally, the analysis results are used to generate a web dashboard ([generate_da
 
 ## Media
 
+Demo Video:
+[YouTube](https://www.youtube.com/watch?v=xNUKsig8W3w)
+
 The web dashboard, giving an overview of emotional reactions during visits to various websites ([high resolution](https://raw.githubusercontent.com/nickbild/browzen/main/media/browzen_dashboard.png)):
 ![Dashboard](https://raw.githubusercontent.com/nickbild/browzen/main/media/browzen_dashboard_sm.png)
 
