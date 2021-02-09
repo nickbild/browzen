@@ -36,6 +36,8 @@ Jetson Xavier NX ([high resolution](https://raw.githubusercontent.com/nickbild/s
 
 It may be useful to create a browser plugin that displays a small, always-visible icon representing past emotions experienced when visiting the current website.  This would serve as a quick reminder of past experiences that may modify current behavior.
 
+I would like to also explore other areas, beyond web browsing, where this idea may be helpful.
+
 ## Bill of Materials
 
 - 1 x NVIDIA Jetson Xavier NX
