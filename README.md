@@ -1,7 +1,5 @@
 # BrowZen
 
-Coming soon!
-
 BrowZen correlates your emotional states with the web sites you visit to give you actionable insights about how you spend your time browsing the web.
 
 <p align="center">
