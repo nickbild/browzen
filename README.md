@@ -4,6 +4,10 @@ Coming soon!
 
 BrowZen correlates your emotional states with the web sites you visit to give you actionable insights about how you spend your time browsing the web.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/browzen/main/media/browzen_demo_short.gif">
+</p>
+
 ## How It Works
 
 <p align="center">
