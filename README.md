@@ -29,6 +29,9 @@ The web dashboard, giving an overview of emotional reactions during visits to va
 Classifying emotions in real-time ([high resolution](https://raw.githubusercontent.com/nickbild/browzen/main/media/classification.jpg)):
 ![Classification](https://raw.githubusercontent.com/nickbild/browzen/main/media/classification_sm.jpg)
 
+Jetson Xavier NX ([high resolution](https://raw.githubusercontent.com/nickbild/shaides_v2/master/media/jetson_nx.jpg)):
+![Jetson](https://raw.githubusercontent.com/nickbild/shaides_v2/master/media/jetson_nx_sm.jpg)
+
 ## Bill of Materials
 
 - 1 x NVIDIA Jetson Xavier NX
